@@ -39,10 +39,12 @@ function Home() {
             </div>
             <br />
             <p className="  md:text-md text-sm  text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quibusdam sit officiis cumque sint natus iste et enim possimus
-              rem, architecto error sequi repudiandae. Debitis quasi nostrum
-              sint, perspiciatis dolorum quis?
+              Hello, welcome to my portfolio! I'm Zaheer, a passionate web
+              developer specializing in the MERN stack. With a strong background
+              in Information Technology, I create impactful and visually
+              stunning software solutions that aim to leave a lasting
+              impression. Feel free to explore my projects and skills to learn
+              more about what I can do.
             </p>
             <br />
             <br />
@@ -99,7 +101,7 @@ function Home() {
             <div className=" md:ml-52 ml-20">
               <div className="flex">
                 <a
-                  href="https://drive.google.com/file/d/1pFL9pVDXFa29m_LOuL0P2wX4PbMM5yZT/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Y14GL1Kc2ywKKmgBQvuPM69RVr_rQNrm/view"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-transparent border-2 border-black-500 text-black-500 font-bold px-4 py-2 rounded transition duration-300 ease-in-out hover:bg-red-500 hover:text-white hover:scale-110"

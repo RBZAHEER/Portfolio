@@ -3,70 +3,95 @@ import React from "react";
 function About() {
   return (
     <div
-      name="About"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
+      name="About"
     >
-      <h1 className="text-black-100 text-3xl font-bold">About</h1>
-      <br />
-      <p>
-        Hello, I'm Zaheer, a passionate Web developer with a keen eye for &nbsp;
-        <b>MERN Stack </b>. With a background in IT, I strive to create
-        impactful and visually stunning Software solutions that leave a lasting
-        impression.
-      </p>
-      <div>
-        <h1 className="text-green-400 text-2xl font-bold mb-2 mt-5">
-          Education & Training
-        </h1>
-        <p>
-          [Degree/Certification], [Institution], [Year] [Degree/Certification],
-          [Institution], [Year] [Relevant Course], [Platform/Institution],
-          [Year]
-        </p>
+      <h1 className="text-black text-4xl font-bold mb-8 text-center">
+        About Me
+      </h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="md:col-span-1">
+          <div className="bg-white shadow-md rounded-lg p-6">
+            <h2 className="text-2xl font-bold text-green-400 mb-4">
+              Education & Training
+            </h2>
+            <ul className="list-disc ml-6">
+              <li className="mb-2">
+                <span className="font-bold">
+                  Bachelor in Information Technology:
+                </span>{" "}
+                Trinity College Of Engineering and Research, Pune University
+                (SPPU), SGPA: 9.43/10, 2021 - 2025
+              </li>
+              <li className="mb-2">
+                <span className="font-bold">HSC:</span> Kondiram Sadashiv
+                Kshirsagar Junior College, India, Percentage: 90%, 2020 - 2021
+              </li>
+              <li className="mb-2">
+                <span className="font-bold">SSC:</span> Bhairavnath Vidyalaya
+                Bhigwan, India, Percentage: 86.80%, 2019 - 2020
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="md:col-span-1">
+          <div className="bg-white shadow-md rounded-lg p-6">
+            <h2 className="text-2xl font-bold text-green-400 mb-4">
+              Skills & Expertise
+            </h2>
+            <ul className="list-disc ml-6">
+              <li className="mb-2">Proficient in Java, JavaScript</li>
+              <li className="mb-2">
+                Experienced with HTML5, CSS3, JavaScript, Node.js, Express.js,
+                MongoDB, MySQL
+              </li>
+              <li className="mb-2">Excellent problem-solving skills</li>
+              <li className="mb-2">Effective communicator and collaborator</li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div>
-        <h1 className="text-green-400 text-2xl font-bold mb-2 mt-5">
-          Skills & Expertise
-        </h1>
-        <p>
-          Proficient in [Programming Languages] Experienced with [Software
-          Tools/Technologies] Strong grasp of [Design Principles/Concepts]
-          Excellent problem-solving skills Effective communicator and
-          collaborator
-        </p>
+
+      <div className="mt-12">
+        <div className="bg-white shadow-md rounded-lg p-6">
+          <h2 className="text-2xl font-bold text-green-400 mb-4">
+            Professional Experience
+          </h2>
+          <ul className="list-disc ml-6">
+            <li className="mb-4">
+              <span className="font-bold">Web Developer Intern:</span> Codsoft,
+              Dec’23 - Jan’24
+              <ul className="list-disc ml-6">
+                <li className="mb-2">
+                  Developed a portfolio website using HTML & CSS, showcasing a
+                  collection of projects, skills, and experiences
+                </li>
+                <li className="mb-2">
+                  Designed and implemented a landing page using HTML and CSS
+                </li>
+                <li className="mb-2">
+                  Created an interactive calculator application using HTML, CSS,
+                  and JavaScript
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <h1 className="text-green-400 text-2xl font-bold mb-2 mt-5">
-          Professional Experience{" "}
-        </h1>
-        <p>
-          [Job Title], [Company/Organization], [Dates] [Brief description of
-          responsibilities and achievements] [Job Title],
-          [Company/Organization], [Dates] [Brief description of responsibilities
-          and achievements] [Freelance/Contract Work], [Client/Organization],
-          [Dates] [Brief description of projects and contributions]
-        </p>
-      </div>
-      <div>
-        <h1 className="text-green-400 text-2xl font-bold mb-2 mt-5">
-          Achievements & Awards
-        </h1>
-        <p>
-          [Award/Recognition], [Organization/Institution], [Year] [Achievement],
-          [Organization/Platform], [Year]
-        </p>
-      </div>
-      <div>
-        <h1 className="text-green-400 text-2xl font-bold mb-2 mt-5">
-          Mission Statement
-        </h1>
-        <p>
-          My mission is to leverage my skills and creativity to deliver
-          innovative [Your Field] solutions that exceed client expectations and
-          contribute positively to the digital landscape. I am committed to
-          continuous learning and growth, always seeking new challenges and
-          opportunities to expand my horizons.
-        </p>
+
+      <div className="mt-12">
+        <div className="bg-white shadow-md rounded-lg p-6">
+          <h2 className="text-2xl font-bold text-green-400 mb-4">
+            Achievements & Awards
+          </h2>
+          <ul className="list-disc ml-6">
+            <li className="mb-2">MERN Stack Developer, Apna College, 2024</li>
+            <li className="mb-2">
+              Data Structures & Algorithms (DSA), Algoprep, 2024
+            </li>
+          </ul>
+        </div>
       </div>
       <br />
       <hr />
