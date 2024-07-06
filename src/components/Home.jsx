@@ -12,6 +12,7 @@ import { FaReact } from "react-icons/fa6";
 import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa6";
 import { SiExpress } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 
 //main Image
 import Pic from "/photo2.jpeg";
@@ -61,6 +62,13 @@ function Home() {
                     <FaLinkedin className="hover:text-blue-500 transition duration-300" />
                   </a>
                   <a
+                    href="https://github.com/RBZAHEER"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <FaGithub className="hover:text-purple-500 transition duration-300" />
+                  </a>
+                  <a
                     href="https://www.facebook.com"
                     rel="noopener noreferrer  "
                     target="_blank"
@@ -68,13 +76,6 @@ function Home() {
                     <FaFacebook className="hover:text-blue-700 transition duration-300" />
                   </a>
 
-                  <a
-                    href="https://www.youtube.com"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <FaYoutube className="hover:text-red-600 transition duration-300" />
-                  </a>
                   <a
                     href="https://www.telegram.org"
                     rel="noopener noreferrer"
