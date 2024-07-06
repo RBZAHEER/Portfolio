@@ -3,6 +3,13 @@ import Wanderlust from "/wanderlust.png";
 import Simon from "/Simon.png";
 import Spotify from "/Spotify.png";
 import Weather from "/Weather.png";
+import Todo from "/todo.png";
+import ImgGen from "/imggen.png";
+import Charcounter from "/charcount.png";
+import Analog from "/analog.png";
+import Paragen from "/paragen.png";
+import BgChanger from "/bgchanger.png";
+import Icontrail from "/icontrail.png";
 
 function Projects() {
   const projectInfo = [
@@ -34,9 +41,65 @@ function Projects() {
       id: 4,
       img: Weather,
       name: "Weather Forecaster",
-      desc: "A weather forecasting application built with React that allows users to get real-time weather updates for any location. It includes features like current weather conditions.",
-      link: null,
-      sourceCode: "https://github.com/RBZAHEER/Weather-Forecast.git",
+      desc: "A weather forecasting application built with HTML, CSS, and JavaScript that allows users to get real-time weather updates for any location. It includes features like current weather conditions.",
+      link: "https://weatherforcast12.netlify.app/",
+      sourceCode: "https://github.com/RBZAHEER/Weather-HTML-CSS-JS-.git",
+    },
+    {
+      id: 5,
+      img: Todo,
+      name: "To Do List",
+      desc: "Developed a To-Do List application using HTML, CSS, and JavaScript. Implemented features for adding, editing, and deleting tasks, along with persistent storage using local storage. Enhanced skills in front-end development and user interface design.",
+      link: "https://todo95.netlify.app/",
+      sourceCode: "https://github.com/RBZAHEER/TODO-List.git",
+    },
+    {
+      id: 6,
+      img: ImgGen,
+      name: "Random Image Generator",
+      desc: "Created a Random Image Generator using HTML, CSS, and JavaScript. Implemented functionality to fetch and display random images from an API. Enhanced skills in asynchronous programming and API integration.",
+      link: "https://imggenerator12.netlify.app/",
+      sourceCode: "https://github.com/RBZAHEER/Random-Paragraph-Generator.git",
+    },
+    {
+      id: 7,
+      img: Charcounter,
+      name: "Real-Time Character Counter",
+      desc: "Built a Real-Time Character Counter using HTML, CSS, and JavaScript. Implemented functionality to dynamically count and display the number of characters typed in a text area. Enhanced skills in front-end development and real-time user interaction.",
+      link: "https://charcounter12.netlify.app/",
+      sourceCode: "https://github.com/RBZAHEER/Character-Counter.git",
+    },
+    {
+      id: 8,
+      img: Analog,
+      name: "Analog Watch",
+      desc: "Developed an Analog Watch using HTML, CSS, and JavaScript. Implemented real-time functionality to display the current time with a visually appealing analog clock interface. Enhanced skills in front-end development and working with date and time functions.",
+      link: "https://analogtime12.netlify.app/",
+      sourceCode: "https://github.com/RBZAHEER/Analog-Watch.git",
+    },
+    {
+      id: 9,
+      img: Paragen,
+      name: "Paragraph Generator",
+      desc: "Created a Paragraph Generator using HTML, CSS, and JavaScript. Implemented functionality to generate random paragraphs for use in various applications. Enhanced skills in front-end development and working with text content dynamically.",
+      link: "https://paraggenerator.netlify.app/",
+      sourceCode: "https://github.com/RBZAHEER/Random-Paragraph-Generator.git",
+    },
+    {
+      id: 10,
+      img: BgChanger,
+      name: "Background Color Changer",
+      desc: "Developed a Background Color Changer using HTML, CSS, and JavaScript. Implemented functionality to change the background color of a web page dynamically based on user input or random selection. Enhanced skills in front-end development and user interaction.",
+      link: "https://bgchanger12.netlify.app/",
+      sourceCode: "https://github.com/RBZAHEER/BgChanger.git",
+    },
+    {
+      id: 11,
+      img: Icontrail,
+      name: "Icon Trail Animation",
+      desc: "This project creates an icon trail animation effect using HTML, CSS, and JavaScript. The effect involves an image icon that follows the mouse cursor with a fading animation effect.",
+      link: "https://icontrailing.netlify.app/",
+      sourceCode: "https://github.com/RBZAHEER/Icon-Trailing.git",
     },
   ];
 
