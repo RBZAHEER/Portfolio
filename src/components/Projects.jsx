@@ -10,6 +10,7 @@ import Analog from "/analog.png";
 import Paragen from "/paragen.png";
 import BgChanger from "/bgchanger.png";
 import Icontrail from "/icontrail.png";
+import Gsaplanding from "/gsaplanding.png";
 
 function Projects() {
   const projectInfo = [
@@ -55,6 +56,15 @@ function Projects() {
     },
     {
       id: 6,
+      img: Gsaplanding,
+      name: "Animated Landing Page",
+      desc: "Developed a modern, responsive landing page using HTML, CSS, and JavaScript. Utilized GSAP for smooth animations and transitions, enhancing user experience.",
+      link: "https://wizardzgsap.netlify.app/",
+      sourceCode: "https://github.com/RBZAHEER/Animated-landing-using-GSAP.git",
+    },
+
+    {
+      id: 7,
       img: ImgGen,
       name: "Random Image Generator",
       desc: "Created a Random Image Generator using HTML, CSS, and JavaScript. Implemented functionality to fetch and display random images from an API. Enhanced skills in asynchronous programming and API integration.",
@@ -62,7 +72,7 @@ function Projects() {
       sourceCode: "https://github.com/RBZAHEER/Random-Paragraph-Generator.git",
     },
     {
-      id: 7,
+      id: 8,
       img: Charcounter,
       name: "Real-Time Character Counter",
       desc: "Built a Real-Time Character Counter using HTML, CSS, and JavaScript. Implemented functionality to dynamically count and display the number of characters typed in a text area. Enhanced skills in front-end development and real-time user interaction.",
@@ -70,7 +80,7 @@ function Projects() {
       sourceCode: "https://github.com/RBZAHEER/Character-Counter.git",
     },
     {
-      id: 8,
+      id: 9,
       img: Analog,
       name: "Analog Watch",
       desc: "Developed an Analog Watch using HTML, CSS, and JavaScript. Implemented real-time functionality to display the current time with a visually appealing analog clock interface. Enhanced skills in front-end development and working with date and time functions.",
@@ -78,7 +88,7 @@ function Projects() {
       sourceCode: "https://github.com/RBZAHEER/Analog-Watch.git",
     },
     {
-      id: 9,
+      id: 10,
       img: Paragen,
       name: "Paragraph Generator",
       desc: "Created a Paragraph Generator using HTML, CSS, and JavaScript. Implemented functionality to generate random paragraphs for use in various applications. Enhanced skills in front-end development and working with text content dynamically.",
@@ -86,7 +96,7 @@ function Projects() {
       sourceCode: "https://github.com/RBZAHEER/Random-Paragraph-Generator.git",
     },
     {
-      id: 10,
+      id: 11,
       img: BgChanger,
       name: "Background Color Changer",
       desc: "Developed a Background Color Changer using HTML, CSS, and JavaScript. Implemented functionality to change the background color of a web page dynamically based on user input or random selection. Enhanced skills in front-end development and user interaction.",
@@ -94,7 +104,7 @@ function Projects() {
       sourceCode: "https://github.com/RBZAHEER/BgChanger.git",
     },
     {
-      id: 11,
+      id: 12,
       img: Icontrail,
       name: "Icon Trail Animation",
       desc: "This project creates an icon trail animation effect using HTML, CSS, and JavaScript. The effect involves an image icon that follows the mouse cursor with a fading animation effect.",

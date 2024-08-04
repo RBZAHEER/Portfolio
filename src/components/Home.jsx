@@ -4,15 +4,14 @@ import { ReactTyped } from "react-typed";
 //Social Media Icons
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
-import { FaYoutube } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 //Working on Icons
 import { FaReact } from "react-icons/fa6";
 import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa6";
 import { SiExpress } from "react-icons/si";
-import { FaGithub } from "react-icons/fa";
 
 //main Image
 import Pic from "/photo2.jpeg";
