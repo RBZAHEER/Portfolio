@@ -11,21 +11,21 @@ import Paragen from "/paragen.png";
 import BgChanger from "/bgchanger.png";
 import Icontrail from "/icontrail.png";
 import Gsaplanding from "/gsaplanding.png";
-import { useRef } from "react";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
+// import { useRef } from "react";
+// import gsap from "gsap";
+// import { useGSAP } from "@gsap/react";
 function Projects() {
-  let projectRef = useRef();
+  // let projectRef = useRef();
 
-  useGSAP(() => {
-    let tl = gsap.timeline();
-    tl.from(projectRef.current, {
-      opacity: 0,
-      x: 200,
-      delay: 6,
-      stagger: 0.1,
-    });
-  });
+  // useGSAP(() => {
+  //   let tl = gsap.timeline();
+  //   tl.from(projectRef.current, {
+  //     opacity: 0,
+  //     x: 200,
+  //     delay: 6,
+  //     stagger: 0.1,
+  //   });
+  // });
   const projectInfo = [
     {
       id: 1,
@@ -130,7 +130,6 @@ function Projects() {
     <div
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20 "
       name="Projects"
-      ref={projectRef}
     >
       <h1 className="font-bold text-3xl mb-8">Projects</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">

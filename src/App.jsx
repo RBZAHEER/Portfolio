@@ -13,8 +13,8 @@ export default function App() {
       <div>
         <Navbar />
         <Home />
-        <About />
         <Projects />
+        <About />
         <Skills />
         <Contact />
         <Footer />

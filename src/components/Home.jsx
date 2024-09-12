@@ -20,11 +20,11 @@ import Pic from "/photo2.jpeg";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 function Home() {
-  useGSAP(() => {
-    let tl = gsap.timeline();
-    tl.from(".pside", { opacity: 0, duration: 1, delay: 2 });
-    tl.from(".iside", { opacity: 0, duration: 1, x: 200 });
-  });
+  // useGSAP(() => {
+  //   let tl = gsap.timeline();
+  //   tl.from(".pside", { opacity: 0, duration: 1, delay: 2 });
+  //   tl.from(".iside", { opacity: 0, duration: 1, x: 200 });
+  // });
   return (
     <>
       <div

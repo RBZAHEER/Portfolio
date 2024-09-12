@@ -11,21 +11,21 @@ function Navbar() {
 
   const navItems = [
     { id: 1, text: "Home" },
-    { id: 2, text: "About" },
-    { id: 3, text: "Skills" },
-    { id: 4, text: "Projects" },
+    { id: 2, text: "Projects" },
+    { id: 3, text: "About" },
+    { id: 4, text: "Skills" },
     { id: 5, text: "Contact" },
   ];
 
-  useGSAP(() => {
-    let tl = gsap.timeline();
+  // useGSAP(() => {
+  //   let tl = gsap.timeline();
 
-    tl.from(".navname , .navitems , .navbar", {
-      y: -200,
-      // duration: 10,
-      stagger: 1,
-    });
-  });
+  //   tl.from(".navname , .navitems , .navbar", {
+  //     y: -200,
+  //     // duration: 10,
+  //     stagger: 1,
+  //   });
+  // });
   return (
     <div className="w-full fixed top-0 left-0 right-0 z-50 bg-white shadow-md navbar">
       <div className="max-w-screen-2xl mx-auto px-4 md:px-20 h-16 flex justify-between items-center">
