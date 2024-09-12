@@ -1,8 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import pic from "/photo.avif";
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import { Link } from "react-scroll";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -14,14 +17,23 @@ function Navbar() {
     { id: 5, text: "Contact" },
   ];
 
+  useGSAP(() => {
+    let tl = gsap.timeline();
+
+    tl.from(".navname , .navitems , .navbar", {
+      y: -200,
+      // duration: 10,
+      stagger: 1,
+    });
+  });
   return (
-    <div className="w-full fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
+    <div className="w-full fixed top-0 left-0 right-0 z-50 bg-white shadow-md navbar">
       <div className="max-w-screen-2xl mx-auto px-4 md:px-20 h-16 flex justify-between items-center">
-        <div className="flex space-x-2 items-center">
+        <div className="flex space-x-2 items-center navname">
           <img src={pic} className="h-12 w-12 rounded-full" alt="Profile Pic" />
           <h1 className="font-semibold text-xl cursor-pointer">
             Zaheer
-            <p className="text-sm">Web Developer</p>
+            <p className="text-sm ">Web Developer</p>
           </h1>
         </div>
 
@@ -40,7 +52,7 @@ function Navbar() {
         </div>
 
         {/* Desktop Navigation */}
-        <ul className="hidden md:flex space-x-8">
+        <ul className="hidden md:flex space-x-8 navitems">
           {navItems.map(({ id, text }) => (
             <li
               key={id}

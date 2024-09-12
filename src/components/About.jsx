@@ -1,9 +1,20 @@
 import React from "react";
-
+//GSAP
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 function About() {
+  useGSAP(() => {
+    let tl = gsap.timeline();
+    tl.from(".about", {
+      opacity: 0,
+      x: 200,
+      delay: 5,
+      stagger: 0.1,
+    });
+  });
   return (
     <div
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
+      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20 about"
       name="About"
     >
       <h1 className="text-black text-4xl font-bold mb-8 text-center">

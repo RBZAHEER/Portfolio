@@ -16,7 +16,15 @@ import { SiExpress } from "react-icons/si";
 //main Image
 import Pic from "/photo2.jpeg";
 
+//GSAP
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 function Home() {
+  useGSAP(() => {
+    let tl = gsap.timeline();
+    tl.from(".pside", { opacity: 0, duration: 1, delay: 2 });
+    tl.from(".iside", { opacity: 0, duration: 1, x: 200 });
+  });
   return (
     <>
       <div
@@ -24,7 +32,7 @@ function Home() {
         className="max-w-screen-2xl mx-auto px-4 md:px-20 my-20 "
       >
         <div className="flex md:flex-row flex-col">
-          <div className="md:w-1/2  mt:12 md:mt-24 space-y-2 order-2 md:order-1">
+          <div className="md:w-1/2  mt:12 md:mt-24 space-y-2 order-2 md:order-1 pside">
             <span className="text-xl">Welcome In My Feed</span>
             <div className="flex space-x-1 text-2xl md:text-4xl">
               <h1>Hello , I'm a &nbsp; </h1>
@@ -111,7 +119,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="md:w-1/2  md:ml-48 md:mt-20 mt-8 order-1 ">
+          <div className="md:w-1/2  md:ml-48 md:mt-20 mt-8 order-1 iside">
             <img
               src={Pic}
               alt="Main Image"
