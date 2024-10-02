@@ -32,7 +32,7 @@ function About() {
                   Bachelor in Information Technology:
                 </span>{" "}
                 Trinity College Of Engineering and Research, Pune University
-                (SPPU), SGPA: 9.43/10, 2021 - 2025
+                (SPPU), SGPA: 9.52/10, 2021 - 2025
               </li>
               <li className="mb-2">
                 <span className="font-bold">HSC:</span> Kondiram Sadashiv
@@ -71,7 +71,47 @@ function About() {
           </h2>
           <ul className="list-disc ml-6">
             <li className="mb-4">
-              <span className="font-bold">Web Developer Intern:</span> Codsoft,
+              <span className="font-bold text-blue-400">
+                Backend Developer Intern:
+              </span>{" "}
+              <span className="font-semibold text-black font-style: italic">
+                {" "}
+                Jarurat Care Foundation,
+              </span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+              Dec’23 - Jan’24
+              <ul className="list-disc ml-6">
+                <br />
+                <li className="mb-2">
+                  Developed and maintained server-side logic, databases, and
+                  RESTful APIs to support NGO website and web applications.
+                </li>
+                <li className="mb-2">
+                  Collaborated closely with frontend developers to ensure
+                  seamless integration between server-side and client-side
+                  components
+                </li>
+                <li className="mb-2">
+                  Optimized website backend for performance, security, and
+                  scalability, enhancing user experience and operational
+                  efficiency.
+                </li>
+                <li>
+                  Utilized best practices in backend technologies, staying
+                  current with trends and advancements to improve system
+                  functionality.
+                </li>
+              </ul>
+            </li>
+            <li className="mb-4">
+              <span className="font-bold text-blue-400">
+                Web Developer Intern:
+              </span>
+              <span className="font-semibold text-black font-style: italic">
+                {" "}
+                Codsoft,
+              </span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
               Dec’23 - Jan’24
               <ul className="list-disc ml-6">
                 <li className="mb-2">

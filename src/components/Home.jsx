@@ -109,7 +109,7 @@ function Home() {
             <div className=" md:ml-52 ml-20">
               <div className="flex">
                 <a
-                  href="https://drive.google.com/file/d/1Y14GL1Kc2ywKKmgBQvuPM69RVr_rQNrm/view"
+                  href="https://drive.google.com/file/d/1mrenb9_oHFbiQgMrhO8Hg3JLk1jbqOK9/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-transparent border-2 border-black-500 text-black-500 font-bold px-4 py-2 rounded transition duration-300 ease-in-out hover:bg-red-500 hover:text-white hover:scale-110"

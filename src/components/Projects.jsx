@@ -11,6 +11,10 @@ import Paragen from "/paragen.png";
 import BgChanger from "/bgchanger.png";
 import Icontrail from "/icontrail.png";
 import Gsaplanding from "/gsaplanding.png";
+import Blogverse from "/blogverse.png";
+import ZeodhaClone from "/zerodha.png";
+import ZoomClone from "/zoomclone.png";
+import rockpaper from "/rockpaperscssior.png";
 // import { useRef } from "react";
 // import gsap from "gsap";
 // import { useGSAP } from "@gsap/react";
@@ -37,10 +41,50 @@ function Projects() {
     },
     {
       id: 2,
+      img: Blogverse,
+      name: "BlogVerse",
+      desc: "Developed a full-stack blogging platform that allows users to create, review, and comment on blogs. Implemented user authentication and authorization using JWT for secure login and session management. Built RESTful APIs with Express.js for managing blog posts and user interactions, leveraging MongoDB for data storage. ",
+      link: "https://blogverse-fe.onrender.com",
+      sourceCode: "https://github.com/RBZAHEER/BlogVerse.git",
+    },
+    {
+      id: 2,
+      img: ZoomClone,
+      name: "Zoom Clone",
+      desc: "The Real-Time Video Conferencing Application is a robust web-based platform designed to facilitate seamless video communication, real-time messaging, and screen sharing among users. Built with modern technologies like React, Node.js, Express, Socket.io, and MongoDB, this application provides a user-friendly experience for hosting and joining virtual meetings, making it ideal for remote work, online classes, or virtual events.",
+      link: "https://zoom-clone-fe.onrender.com",
+      sourceCode: "https://github.com/RBZAHEER/Zoom_Clone.git",
+    },
+    {
+      id: 2,
+      img: ZeodhaClone,
+      name: "Zerodha Clone",
+      desc: "For the Zerodha Clone project, I developed a website mimicking the features of Zerodha.com using the MERN stack (MongoDB, Express, React, Node.js). The project integrates Graph.js for data visualization and APIs to fetch real-time data, providing a seamless and interactive user experience for tracking and analyzing stock market trends.",
+      link: "",
+      sourceCode: "https://github.com/RBZAHEER/Zerodha-Clone.git",
+    },
+    {
+      id: 6,
+      img: Gsaplanding,
+      name: "Animated Landing Page",
+      desc: "Developed a modern, responsive landing page using HTML, CSS, and JavaScript. Utilized GSAP for smooth animations and transitions, enhancing user experience.",
+      link: "https://wizardzgsap.netlify.app/",
+      sourceCode: "https://github.com/RBZAHEER/Animated-landing-using-GSAP.git",
+    },
+    {
+      id: 6,
+      img: rockpaper,
+      name: "Rock Paper Secssor Game",
+      desc: "The Rock-Paper-Scissors game is a simple web-based game implemented using HTML, CSS, and JavaScript. Players can choose between rock, paper, or scissors by clicking on the corresponding buttons. The game keeps track of scores for both the player and the computer, and displays the outcome of each round.",
+      link: "https://stonepapescissorrr.netlify.app/",
+      sourceCode: "https://github.com/RBZAHEER/stone-paper-scissor-game.git",
+    },
+    {
+      id: 3,
       img: Simon,
-      name: "Simon Says",
-      desc: "Developed a Simon Says game using HTML, CSS, and JavaScript. Implemented game logic to replicate the classic memory game providing interactive and engaging gameplay. Enhanced skills in front-end development and game design.",
-      link: "https://rbzaheer.github.io/Simon-Says-Game/",
+      name: "Simon Says Game",
+      desc: "Developed a Simon Says game using HTML, CSS, and JavaScript. Implemented game logic to replicate the classic memorygame, providing interactive and engaging gameplay. Enhanced skills in front-end development by using JavaScript for gamemechanics and DOM manipulation.",
+      link: "https://rbzaheer.github.io/Simon-Says-Game",
       sourceCode: "https://github.com/RBZAHEER/Simon-Says-Game.git",
     },
     {
@@ -116,14 +160,14 @@ function Projects() {
       link: "https://bgchanger12.netlify.app/",
       sourceCode: "https://github.com/RBZAHEER/BgChanger.git",
     },
-    {
-      id: 12,
-      img: Icontrail,
-      name: "Icon Trail Animation",
-      desc: "This project creates an icon trail animation effect using HTML, CSS, and JavaScript. The effect involves an image icon that follows the mouse cursor with a fading animation effect.",
-      link: "https://icontrailing.netlify.app/",
-      sourceCode: "https://github.com/RBZAHEER/Icon-Trailing.git",
-    },
+    // {
+    //   id: 12,
+    //   img: Icontrail,
+    //   name: "Icon Trail Animation",
+    //   desc: "This project creates an icon trail animation effect using HTML, CSS, and JavaScript. The effect involves an image icon that follows the mouse cursor with a fading animation effect.",
+    //   link: "https://icontrailing.netlify.app/",
+    //   sourceCode: "https://github.com/RBZAHEER/Icon-Trailing.git",
+    // },
   ];
 
   return (
