@@ -79,7 +79,7 @@ function About() {
                 Jarurat Care Foundation,
               </span>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-              Dec’23 - Jan’24
+              Sep’24 - Jan’25
               <ul className="list-disc ml-6">
                 <br />
                 <li className="mb-2">
