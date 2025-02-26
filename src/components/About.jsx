@@ -32,7 +32,7 @@ function About() {
                   Bachelor in Information Technology:
                 </span>{" "}
                 Trinity College Of Engineering and Research, Pune University
-                (SPPU), SGPA: 9.52/10, 2021 - 2025
+                (SPPU), SGPA: 9.70/10, 2021 - 2025
               </li>
               <li className="mb-2">
                 <span className="font-bold">HSC:</span> Kondiram Sadashiv
