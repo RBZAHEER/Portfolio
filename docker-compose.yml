@@ -1,0 +1,29 @@
+version: "2.1"
+
+services:
+  builder:
+    image: node:18-alpine
+    container_name: port-cont
+    working_dir: /app
+    command: sh -c "npm install && npm run build"
+    networks:
+      - port-net
+    volumes:
+      - .:/app
+
+  nginx:
+    image: nginx:stable-alpine
+    container_name: nginx-cont
+    ports:
+      - "80:80"
+    volumes:
+      - ./dist:/usr/share/nginx/html
+    depends_on:
+      - builder
+    networks:
+      - port-net
+    restart: always
+
+networks:
+  port-net:
+    driver: bridge
